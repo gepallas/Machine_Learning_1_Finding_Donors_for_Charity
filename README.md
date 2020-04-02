@@ -1,6 +1,10 @@
 # Supervised Learning to predict individuals' income to identify possible donors for charity
 This project has been completed as part of the [Udacity's Machine Learning Nanodegree](https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229) requirements.
 
+The main file for the project is the *finding_donors.ipynb*.
+
+A second file contains further personal experimentation of tuning various ML algorithms *finding_donors_Further_Experimentation.ipynb*.
+
 ## Overview
 In this project I apply various supervised models to predict if the income of individuals is above or less than $50,000, using 1994 U.S. Census data. The best performing model is then selected for further tuning.
 
