@@ -107,11 +107,13 @@ def evaluate(results, accuracy, f1):
     ax[1, 2].set_ylim((0, 1))
 
     # Create patches for the legend
+    
     patches = []
     for i, learner in enumerate(results.keys()):
         patches.append(mpatches.Patch(color = colors[i], label = learner))
     pl.legend(handles = patches, bbox_to_anchor = (-.80, 2.53), \
                loc = 'upper center', borderaxespad = 0., ncol = 3, fontsize = 'x-large')
+    
     
     # Aesthetics
     pl.suptitle("Performance Metrics for Three Supervised Learning Models", fontsize = 16, y = 1.10)
