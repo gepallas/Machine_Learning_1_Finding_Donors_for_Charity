@@ -4,8 +4,7 @@ This project has been completed as part of the [Udacity's Machine Learning Nanod
 The main file for the project is the: <br/>
 *finding_donors.ipynb*
 
-A second file contains further personal experimentation of tuning various ML algorithms: <br/>
-*finding_donors_research_AdaBoost.ipynb*
+Other jupyter notebook files contain further personal experimentation of tuning various ML algorithms.
 
 ## Overview
 In this project I apply various supervised models to predict if the income of individuals is above or less than $50,000, using 1994 U.S. Census data. The best performing model is then selected for further tuning.
